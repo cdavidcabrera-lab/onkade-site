@@ -1062,18 +1062,18 @@ export default function Home() {
           <div className="mt-8 rounded-[2rem] border border-white/10 bg-white/5 p-8 text-left">
             <p>
               <span className="font-black">Información general:</span>{" "}
-              contacto@onkade.mx
+              administracion@onkade.mx
             </p>
             <p className="mt-3">
-              <span className="font-black">Registros:</span> registro@onkade.mx
+              <span className="font-black">Registros:</span> administracion@onkade.mx
             </p>
             <p className="mt-3">
               <span className="font-black">Preparadores:</span>{" "}
-              preparadores@onkade.mx
+              administracion@onkade.mx
             </p>
             <p className="mt-3">
               <span className="font-black">Patrocinios:</span>{" "}
-              patrocinios@onkade.mx
+              administracion@onkade.mx
             </p>
           </div>
         </div>

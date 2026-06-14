@@ -61,10 +61,10 @@ export default function Footer() {
           </h3>
 
           <div className="mt-4 space-y-2 text-sm text-white/60">
-            <p>contacto@onkade.mx</p>
-            <p>registro@onkade.mx</p>
-            <p>preparadores@onkade.mx</p>
-            <p>direccion@onkade.mx</p>
+            <p>administracion@onkade.mx</p>
+            <p>administracion@onkade.mx</p>
+            <p>administracion@onkade.mx</p>
+            <p>administracion@onkade.mx</p>
           </div>
 
           <Link
