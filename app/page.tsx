@@ -351,42 +351,42 @@ export default function Home() {
       </section>
 
       {/* QUÉ ES ONKADE */}
-      <section id="onkade" className="scroll-mt-24 px-6 py-20">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-4">
-            <Image
-              src="/images/kart-poster.png"
-              alt="Organización Nacional de Kartismo Deportivo"
-              width={800}
-              height={600}
-              className="h-auto w-full rounded-[1.5rem] object-cover"
-            />
-          </div>
+      <section id="onkade" className="scroll-mt-24 bg-[#080808] px-6 py-24 text-white">
+        <div className="mx-auto max-w-7xl">
+          <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-gradient-to-br from-zinc-950 via-black to-zinc-900 p-8 shadow-2xl md:p-12">
+            <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+              <div>
+                <p className="text-sm font-black uppercase tracking-[0.35em] text-red-500">
+                  ONKADE
+                </p>
 
-          <div>
-            <p className="text-sm font-black uppercase tracking-[0.3em] text-white/50">
-              ¿Qué es ONKADE?
-            </p>
-            <h2 className="mt-3 text-5xl font-black leading-none">
-              Organización Nacional de Kartismo Deportivo
-            </h2>
-            <p className="mt-6 text-lg leading-9 text-white/70">
-              ONKADE nace con el objetivo de profesionalizar, ordenar y fortalecer
-              el kartismo deportivo en México. Somos una organización enfocada en
-              crear eventos competitivos, seguros y transparentes, donde el talento
-              de los pilotos pueda desarrollarse con reglas claras, criterios
-              técnicos definidos y una estructura organizativa seria.
-            </p>
-            <p className="mt-5 text-lg leading-9 text-white/70">
-              Nuestro trabajo busca integrar a todos los actores que hacen posible
-              este deporte: pilotos, preparadores, familias, equipos, kartódromos,
-              patrocinadores y autoridades deportivas.
-            </p>
+                <h2 className="mt-4 text-4xl font-black uppercase tracking-tight md:text-6xl">
+                  Próximamente más información.
+                  <span className="block text-red-500">Espéralo.</span>
+                </h2>
+
+                <p className="mt-6 max-w-3xl text-base leading-8 text-zinc-300 md:text-lg">
+                  Estamos preparando la presentación oficial de la Organización Nacional de Kartismo Deportivo.
+                  Muy pronto compartiremos la visión, estructura, lineamientos y próximos pasos.
+                </p>
+              </div>
+
+              <div className="rounded-[2rem] border border-red-500/30 bg-red-500/10 p-6">
+                <p className="text-sm font-black uppercase tracking-[0.25em] text-red-300">
+                  En desarrollo
+                </p>
+                <p className="mt-4 text-2xl font-black uppercase leading-tight text-white">
+                  Información institucional, estructura deportiva, lineamientos y próximos pasos.
+                </p>
+                <p className="mt-5 text-sm leading-7 text-zinc-300">
+                  La información oficial será publicada una vez concluidas las presentaciones y reuniones de trabajo correspondientes.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* MISIÓN Y VISIÓN */}
       <section className="bg-white px-6 py-20 text-black">
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-2">
           <article className="rounded-[2rem] border border-black/10 bg-black p-8 text-white">
@@ -422,56 +422,31 @@ export default function Home() {
       </section>
 
       {/* PREPARADORES */}
-      <section id="preparadores" className="scroll-mt-24 px-6 py-20">
-        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1fr_0.9fr]">
-          <div>
-            <p className="text-sm font-black uppercase tracking-[0.3em] text-white/50">
-              Punto medular de ONKADE
+      <section id="preparadores" className="scroll-mt-24 bg-black px-6 py-24 text-white">
+        <div className="mx-auto max-w-7xl">
+          <div className="rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 md:p-12">
+            <p className="text-sm font-black uppercase tracking-[0.35em] text-yellow-400">
+              Preparadores y equipos
             </p>
-            <h2 className="mt-3 text-5xl font-black leading-none">
-              Los preparadores son el eje técnico y formativo
+
+            <h2 className="mt-4 text-4xl font-black uppercase tracking-tight md:text-6xl">
+              Próximamente más información.
+              <span className="block text-yellow-400">Espéralo.</span>
             </h2>
-            <p className="mt-6 text-lg leading-9 text-white/70">
-              En ONKADE reconocemos que los preparadores son una pieza fundamental
-              para el crecimiento del kartismo deportivo. Su experiencia técnica,
-              acompañamiento, formación y liderazgo son esenciales para el
-              desarrollo de los pilotos y para elevar el nivel competitivo de cada
-              categoría.
+
+            <p className="mt-6 max-w-4xl text-base leading-8 text-zinc-300 md:text-lg">
+              Estamos trabajando en una propuesta de integración para preparadores, equipos y familias.
+              La información oficial será presentada próximamente.
             </p>
-          </div>
 
-          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6">
-            <div className="mb-6 text-center">
-              <p className="text-xs font-black uppercase tracking-[0.28em] text-white/45">
-                Colaboradores y equipos aliados
-              </p>
-              <h3 className="mt-3 text-2xl font-black">
-                Comunidad técnica que impulsa el kartismo
-              </h3>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              {colaboradores.map((colaborador) => (
-                <div
-                  key={colaborador.nombre}
-                  className="flex min-h-28 items-center justify-center rounded-2xl border border-white/10 bg-white p-4"
-                >
-                  <Image
-                    src={colaborador.logo}
-                    alt={colaborador.nombre}
-                    width={220}
-                    height={120}
-                    className="max-h-20 w-auto object-contain"
-                  />
-                </div>
-              ))}
-            </div>
+            <p className="mt-4 max-w-4xl text-base leading-8 text-zinc-400">
+              El objetivo es construir un esquema claro, serio y ordenado para fortalecer la participación
+              de quienes forman parte del desarrollo del kartismo deportivo.
+            </p>
           </div>
         </div>
-
       </section>
 
-      {/* VALORES */}
       <section className="bg-[#0b0b0b] px-6 py-20">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-3xl text-center">
