@@ -430,11 +430,6 @@ export default function Home() {
               Estamos trabajando en una propuesta de integración para preparadores, equipos y familias.
               La información oficial será presentada próximamente.
             </p>
-
-            <p className="mt-4 max-w-4xl text-base leading-8 text-zinc-400">
-              El objetivo es construir un esquema claro, serio y ordenado para fortalecer la participación
-              de quienes forman parte del desarrollo del kartismo deportivo.
-            </p>
           </div>
         </div>
       </section>

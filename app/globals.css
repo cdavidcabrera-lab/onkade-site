@@ -29,3 +29,21 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* =========================================================
+   MODO TEMPORAL: EVENTO + PREPARADORES
+   Oculta contenido institucional general hasta nuevo aviso.
+   ========================================================= */
+
+section#onkade,
+section#mision,
+section#vision {
+  display: none !important;
+}
+
+a[href="#onkade"],
+a[href="#mision"],
+a[href="#vision"],
+a[href="/onkade"] {
+  display: none !important;
+}
