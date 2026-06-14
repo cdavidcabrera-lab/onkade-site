@@ -61,10 +61,12 @@ export default function Footer() {
           </h3>
 
           <div className="mt-4 space-y-2 text-sm text-white/60">
-            <p>administracion@onkade.mx</p>
-            <p>administracion@onkade.mx</p>
-            <p>administracion@onkade.mx</p>
-            <p>administracion@onkade.mx</p>
+            <a
+              href="mailto:administracion@onkade.mx"
+              className="hover:text-white"
+            >
+              administracion@onkade.mx
+            </a>
           </div>
 
           <Link

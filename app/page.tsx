@@ -1059,25 +1059,34 @@ export default function Home() {
             información sobre ONKADE?
           </p>
 
-          <div className="mt-8 rounded-[2rem] border border-white/10 bg-white/5 p-8 text-left">
-            <p>
-              <span className="font-black">Información general:</span>{" "}
+          <div className="mx-auto mt-10 max-w-2xl rounded-[2rem] border border-white/10 bg-white/5 p-8">
+            <p className="text-xs font-black uppercase tracking-[0.28em] text-red-500">
+              Correo institucional
+            </p>
+
+            <a
+              href="mailto:administracion@onkade.mx"
+              className="mt-4 block text-2xl font-black text-white hover:text-red-500 md:text-3xl"
+            >
               administracion@onkade.mx
+            </a>
+
+            <p className="mt-5 text-sm leading-7 text-white/60">
+              Escríbenos para información general, registro de pilotos,
+              preparadores, patrocinios, colaboración, prensa o dudas sobre
+              próximos eventos.
             </p>
-            <p className="mt-3">
-              <span className="font-black">Registros:</span> administracion@onkade.mx
-            </p>
-            <p className="mt-3">
-              <span className="font-black">Preparadores:</span>{" "}
-              administracion@onkade.mx
-            </p>
-            <p className="mt-3">
-              <span className="font-black">Patrocinios:</span>{" "}
-              administracion@onkade.mx
-            </p>
+
+            <a
+              href="mailto:administracion@onkade.mx?subject=Contacto%20desde%20la%20p%C3%A1gina%20web%20ONKADE"
+              className="mt-8 inline-flex rounded-full bg-red-600 px-7 py-4 text-sm font-black uppercase tracking-wider text-white hover:bg-red-700"
+            >
+              Enviar correo
+            </a>
           </div>
         </div>
       </section>
+
     </main>
   );
 }
