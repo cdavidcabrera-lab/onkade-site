@@ -1038,7 +1038,7 @@ export default function Home() {
 
           <div className="overflow-hidden rounded-[2rem] border border-black/10 bg-neutral-100 p-4">
             <img
-              src="/images/kart-poster.png"
+              src="/images/kart-poster.png?v=poster-corregido-2026"
               alt="Patrocinadores ONKADE"
               className="h-auto w-full rounded-[1.5rem] object-cover"
             />
