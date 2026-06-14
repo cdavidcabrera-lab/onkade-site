@@ -632,6 +632,31 @@ export default function Home() {
 
 
       {/* PROGRAMA OFICIAL DE PISTA */}
+
+      <section className="bg-black px-6 py-12 text-white">
+        <div className="mx-auto max-w-7xl rounded-3xl border border-red-500/30 bg-red-500/10 p-6 md:p-8">
+          <p className="text-sm font-black uppercase tracking-[0.25em] text-red-300">
+            Documento obligatorio
+          </p>
+          <h2 className="mt-3 text-3xl font-black uppercase tracking-tight">
+            Carta responsiva de participación
+          </h2>
+          <p className="mt-4 max-w-4xl text-sm leading-7 text-zinc-300 md:text-base">
+            Para poder participar, todo piloto deberá presentar carta responsiva firmada.
+            En caso de menores de edad, deberá firmarla la madre, padre, tutor o representante legal.
+            Este documento deberá entregarse en la mesa de registro antes de salir a pista.
+          </p>
+          <a
+            href="/documentos/carta-responsiva-onkade.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-flex rounded-full bg-red-600 px-6 py-3 text-xs font-black uppercase tracking-wider text-white transition hover:bg-red-700"
+          >
+            Descargar carta responsiva
+          </a>
+        </div>
+      </section>
+
       <section id="programa" className="scroll-mt-24 bg-[#0b0b0b] px-6 py-20 text-white">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-4xl text-center">
