@@ -17,7 +17,7 @@ export default function Footer() {
             <div>
               <p className="text-xl font-black">ONKADE</p>
               <p className="text-xs text-white/45">
-                Organización Nacional de Kartismo Deportivo, A.C.
+                Organización Nacional de Kartismo Deportivo
               </p>
             </div>
           </div>
@@ -51,6 +51,9 @@ export default function Footer() {
             </Link>
             <Link href="/contacto" className="hover:text-white">
               Contacto
+            </Link>
+            <Link href="/aviso-de-privacidad" className="hover:text-white">
+              Aviso de privacidad
             </Link>
           </div>
         </div>
