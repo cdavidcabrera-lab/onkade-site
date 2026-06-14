@@ -391,32 +391,24 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-2">
           <article className="rounded-[2rem] border border-black/10 bg-black p-8 text-white">
             <p className="text-sm font-black uppercase tracking-[0.3em] text-white/45">
-              Nuestra misión
+              Próximamente más información
             </p>
             <h2 className="mt-3 text-4xl font-black">
               Impulsar el kartismo mexicano
             </h2>
             <p className="mt-5 text-lg leading-8 text-white/70">
-              Impulsar el kartismo deportivo en México mediante eventos organizados
-              con profesionalismo, imparcialidad y seguridad, promoviendo la
-              participación de pilotos, preparadores, familias, equipos y
-              patrocinadores en un entorno competitivo, transparente y formativo.
-            </p>
+              Espéralo.</p>
           </article>
 
           <article className="rounded-[2rem] border border-black/10 bg-neutral-100 p-8">
             <p className="text-sm font-black uppercase tracking-[0.3em] text-black/45">
-              Nuestra visión
+              Próximamente más información
             </p>
             <h2 className="mt-3 text-4xl font-black">
               Una estructura nacional sólida
             </h2>
             <p className="mt-5 text-lg leading-8 text-black/70">
-              Consolidarnos como una organización nacional referente en el
-              desarrollo del kartismo deportivo, generando competencias de alto
-              nivel, fortaleciendo la formación de pilotos y contribuyendo a que
-              México cuente con una estructura deportiva confiable y competitiva.
-            </p>
+              Espéralo.</p>
           </article>
         </div>
       </section>
