@@ -275,7 +275,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-5xl font-black leading-none tracking-tight md:text-7xl">
-              Kartismo deportivo mexicano con visión nacional
+              Próximamente más información. Espéralo.
             </h1>
 
             <p className="mt-7 max-w-2xl text-xl leading-9 text-white/75">
