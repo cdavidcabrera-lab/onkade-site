@@ -648,6 +648,17 @@ export default function Home() {
           </div>
 
           <div className="mt-12 space-y-10">
+            <div className="mb-10 rounded-2xl border border-yellow-400/30 bg-yellow-400/10 p-5 text-sm leading-6 text-yellow-100">
+              <p className="font-black uppercase tracking-wide text-yellow-300">
+                Aviso importante sobre horarios
+              </p>
+              <p className="mt-2">
+                Los horarios, orden de salida, tiempos de pista y actividades del programa podrán cambiar
+                o modificarse el día del evento por motivos de seguridad, clima, logística, condiciones
+                de pista, número de participantes o indicaciones de dirección de carrera.
+              </p>
+            </div>
+
             {programasPista.map((programa) => (
               <article
                 key={programa.dia}
