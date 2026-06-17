@@ -333,7 +333,7 @@ export default function Home() {
               className="h-20 w-auto object-contain"
             />
             <Image
-              src="/logos/copa-tlaxcala-2026.png"
+              src="/logos/mickels-trackday-logo.png"
               alt="Mickel’s Track Day Track Day Tlaxcala 2026"
               width={120}
               height={120}
@@ -470,7 +470,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="overflow-hidden rounded-[2rem] border border-black/10 bg-neutral-100 p-4">
             <Image
-              src="/logos/copa-tlaxcala-2026.png"
+              src="/logos/mickels-trackday-logo.png"
               alt="Mickel’s Track Day Track Day Tlaxcala 2026"
               width={800}
               height={900}
