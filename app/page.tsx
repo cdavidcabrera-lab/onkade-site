@@ -289,7 +289,7 @@ export default function Home() {
                 href="#evento"
                 className="rounded-full bg-red-600 px-7 py-4 text-center text-sm font-black uppercase tracking-wider text-white hover:bg-red-700"
               >
-                Ver Copa Tlaxcala 2026
+                Ver Mickel’s Track Day Tlaxcala 2026
               </a>
 
               <a
@@ -334,7 +334,7 @@ export default function Home() {
             />
             <Image
               src="/logos/copa-tlaxcala-2026.png"
-              alt="Copa Mickel’s Track Day Tlaxcala 2026"
+              alt="Mickel’s Track Day Track Day Tlaxcala 2026"
               width={120}
               height={120}
               className="h-24 w-auto object-contain"
@@ -471,7 +471,7 @@ export default function Home() {
           <div className="overflow-hidden rounded-[2rem] border border-black/10 bg-neutral-100 p-4">
             <Image
               src="/logos/copa-tlaxcala-2026.png"
-              alt="Copa Mickel’s Track Day Tlaxcala 2026"
+              alt="Mickel’s Track Day Track Day Tlaxcala 2026"
               width={800}
               height={900}
               className="h-auto w-full rounded-[1.5rem] object-contain"
@@ -483,10 +483,10 @@ export default function Home() {
               Próximo evento
             </p>
             <h2 className="mt-3 text-5xl font-black leading-none">
-              Copa Mickel’s Track Day Tlaxcala 2026
+              Mickel’s Track Day Track Day Tlaxcala 2026
             </h2>
             <p className="mt-6 text-lg leading-8 text-black/70">
-              La Copa Mickel’s Track Day Tlaxcala 2026 será un evento de kartismo
+              La Mickel’s Track Day Track Day Tlaxcala 2026 será un evento de kartismo
               deportivo organizado bajo la visión de ONKADE, con enfoque en
               seguridad, participación familiar, competencia ordenada y desarrollo
               del talento mexicano.

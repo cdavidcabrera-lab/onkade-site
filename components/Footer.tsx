@@ -76,7 +76,7 @@ export default function Footer() {
             href="https://registroformspreeonkade-2.vercel.app/"
             className="mt-6 inline-flex rounded-full bg-red-600 px-5 py-3 text-xs font-black uppercase tracking-wider text-white hover:bg-red-700"
           >
-            Copa Tlaxcala 2026
+            Mickel’s Track Day Tlaxcala 2026
           </Link>
         </div>
       </div>
